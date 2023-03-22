@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# Program: Blank Program
-# Author: William Phung
+# Author Name: William Phung
+# Author Email: willism1769@csu.fullerton.edu
+# Course and Section: CPSC240-3
+# Today's Date: Mar 22, 2023
 
-# Clear any previously compiled outputs
 rm *.o
 rm *.out
 
