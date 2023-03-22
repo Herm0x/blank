@@ -1,4 +1,4 @@
-extern happy_birthday_function
+extern happyBirthday
 global manager_function
 
 section .data
@@ -11,7 +11,7 @@ manager_function:
 loop_start:
   cmp ebx, ecx    ;check if counter is less than age
   jge loop_end    ;jump to loop_end if counter is greater or equal to age
-  call happy_birthday_function
+  call happyBirthday
   inc ebx         ;increment counter
   jmp loop_start  ;loop back to loop_start
 loop_end:
